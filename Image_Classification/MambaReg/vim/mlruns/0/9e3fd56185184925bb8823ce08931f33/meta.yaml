@@ -1,0 +1,15 @@
+artifact_uri: file:///root/autodl-tmp/DyVM/vim/mlruns/0/9e3fd56185184925bb8823ce08931f33/artifacts
+end_time: 1741151440404
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 9e3fd56185184925bb8823ce08931f33
+run_name: mambareg-s
+run_uuid: 9e3fd56185184925bb8823ce08931f33
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1741151355026
+status: 3
+tags: []
+user_id: root

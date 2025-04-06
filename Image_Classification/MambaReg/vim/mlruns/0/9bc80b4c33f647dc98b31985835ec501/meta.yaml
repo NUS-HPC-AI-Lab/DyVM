@@ -1,0 +1,15 @@
+artifact_uri: file:///root/autodl-tmp/DyVM/vim/mlruns/0/9bc80b4c33f647dc98b31985835ec501/artifacts
+end_time: 1741066490621
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 9bc80b4c33f647dc98b31985835ec501
+run_name: localmamba-t
+run_uuid: 9bc80b4c33f647dc98b31985835ec501
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1741049966249
+status: 3
+tags: []
+user_id: root
