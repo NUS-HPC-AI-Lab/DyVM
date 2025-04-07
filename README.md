@@ -21,12 +21,12 @@ $^{1}$ NUS, $^{2}$ ETH, $^{3}$ University of Toronto, $^{4}$ Tsinghua University
 
 Mamba-based vision models have gained extensive attention as a result of being computationally more efficient than attention-based models. 
 However, spatial redundancy still exists in these models, represented by token and block redundancy.
-For token redundancy, we analytically find that existing token pruning methods are not feasible for the Mamba model and will result in inconsistency between training and inference.
+For token redundancy, we analytically find that early token pruning methods will result in inconsistency between training and inference or introduce extra computation for inference.
 Therefore, we customize token pruning to fit the Mamba structure by rearranging the pruned sequence before feeding it into the next Mamba block.
-For block redundancy, we allow each sample to select SSM blocks dynamically based on an empirical observation that the inference speed of Mamba-based vision models is largely affected by the number of SSM blocks.
+For block redundancy, we allow each image to select SSM blocks dynamically based on an empirical observation that the inference speed of Mamba-based vision models is largely affected by the number of SSM blocks.
 Our proposed method, Dynamic Vision Mamba (DyVM), effectively reduces FLOPs with minor performance drops.
-We achieve 35.2\% FLOPs reduction with only 1.7\% accuracy loss on Vim-S.
-It also generalizes well across different Mamba vision model architectures.
+We achieve a reduction of 35.2\% FLOPs with only a loss of accuracy of 1.7\% on Vim-S.
+It also generalizes well across different Mamba vision model architectures and different vision tasks.
 
 ## Environment
 
