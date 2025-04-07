@@ -13,7 +13,7 @@ $^{1}$ NUS, $^{2}$ ETH, $^{3}$ University of Toronto, $^{4}$ Tsinghua University
 
 ## News
 
-2025-04-06: We release the code of Dynamic Vision Mamba (DyVM).
+2025-04-07: We release the code of Dynamic Vision Mamba (DyVM).
 
 ## Overview
 
