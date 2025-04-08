@@ -7,13 +7,15 @@ $^{1}$ NUS, $^{2}$ ETH, $^{3}$ University of Toronto, $^{4}$ Tsinghua University
 
 (\*) equal contribution, ($\dagger$) project lead, ($\ddagger$) corresponding author.
 
-<!-- ArXiv Preprint ([arXiv](https://arxiv.org/abs/)) -->
+ArXiv Preprint ([arXiv 2504.04787](https://arxiv.org/abs/2504.04787))
 </div>
 
 
 ## News
 
 2025-04-07: We release the code of Dynamic Vision Mamba (DyVM).
+
+2025-04-08: Paper released on arXiv.
 
 ## Overview
 
@@ -90,14 +92,16 @@ We provide the code of each ablation study in the `Albatation` directory. You ca
 This project is based on Vim ([paper](https://icml.cc/virtual/2024/poster/33768), [code](https://github.com/hustvl/Vim)), Mamba ([paper](https://arxiv.org/abs/2312.00752), [code](https://github.com/state-spaces/mamba)), Causal-Conv1d ([code](https://github.com/Dao-AILab/causal-conv1d)), DeiT ([paper](https://arxiv.org/abs/2012.12877), [code](https://github.com/facebookresearch/deit)). Thanks for their wonderful works.
 
 ## Citation
-If you find DyVM is useful in your research or applications, please consider giving us a star 🌟.
+If you find DyVM is useful in your research or applications, please consider giving us a star 🌟 and citing it by the following BibTeX entry.
 
-<!-- If you find DyVM is useful in your research or applications, please consider giving us a star 🌟 and citing it by the following BibTeX entry. -->
-
-<!-- ```bibtex
-@inproceedings{vim,
-  title={Vision Mamba: Efficient Visual Representation Learning with Bidirectional State Space Model},
-  author={Zhu, Lianghui and Liao, Bencheng and Zhang, Qian and Wang, Xinlong and Liu, Wenyu and Wang, Xinggang},
-  booktitle={Forty-first International Conference on Machine Learning}
+```bibtex
+@misc{wu2025dynamicvisionmamba,
+      title={Dynamic Vision Mamba}, 
+      author={Mengxuan Wu and Zekai Li and Zhiyuan Liang and Moyang Li and Xuanlei Zhao and Samir Khaki and Zheng Zhu and Xiaojiang Peng and Konstantinos N. Plataniotis and Kai Wang and Wangbo Zhao and Yang You},
+      year={2025},
+      eprint={2504.04787},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2504.04787}, 
 }
-``` -->
+```
